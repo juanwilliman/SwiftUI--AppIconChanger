@@ -11,9 +11,14 @@ import SwiftUI
 
 class ThemeController: ObservableObject {
     
-    // MARK: - Variables
+    // MARK: - Properties
         
     @AppStorage("selectedAppIcon") var selectedAppIcon: AppIcon = .light
+    
+    // MARK: - Init
+    
+    static let shared = ThemeController()
+    private init() {}
     
 }
 

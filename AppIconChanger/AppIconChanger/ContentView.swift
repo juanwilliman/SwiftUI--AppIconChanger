@@ -11,9 +11,9 @@ import SwiftUI
 
 struct ContentView: View {
     
-    // MARK: - Variables
+    // MARK: - Properties
     
-    @StateObject private var themeController = ThemeController()
+    @StateObject private var themeController = ThemeController.shared
     
     // MARK: - Body
     
@@ -37,8 +37,6 @@ struct ContentView: View {
 
 // MARK: - Preview
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+#Preview {
+    ContentView()
 }

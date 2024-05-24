@@ -11,9 +11,6 @@ import SwiftUI
 
 @main
 struct AppIconChangerApp: App {
-    
-    // MARK: - Body
-    
     var body: some Scene {
         WindowGroup {
             ContentView()

@@ -57,9 +57,9 @@
 			children = (
 				E9B3857028F057D800C7FB37 /* Assets.xcassets */,
 				E9B3856C28F057D500C7FB37 /* AppIconChangerApp.swift */,
-				E9B3857C28F05A0300C7FB37 /* AppIcon.swift */,
 				E9B3857A28F059DF00C7FB37 /* ThemeController.swift */,
 				E9B3856E28F057D500C7FB37 /* ContentView.swift */,
+				E9B3857C28F05A0300C7FB37 /* AppIcon.swift */,
 				E9B3857228F057D800C7FB37 /* Preview Content */,
 			);
 			path = AppIconChanger;
